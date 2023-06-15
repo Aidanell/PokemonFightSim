@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background">
+        <img id="pikachu" src="images/backPikachu.png">
+        <img id="vaporeon" src="images/frontVaporeon.png">
+    </div>
+
+    <div class="textbox" id="bottomLeft">
+        <h1 id="text"> What will pikachu do?</h1>
+    </div>
+
+    <div class=levelBar id="playerLevelBar">
+        Pikachu
+        <div id="playerExpBar"></div>
+        <div class=HPBar id="playerHPBar">HP</div>
+        <progress class='greenBar' id="playerGreenBar" value="100" max="200">200/200</progress> 
+    </div>
+
+    <div class="levelBar" id="oppLevelBar">
+        Vaporeon
+        <div class="HPBar" id="oppHPBar">HP</div>
+        <progress class="greenBar" id="oppGreenBar" value="200" max="200"></progress>
+    </div>
+
+    <button id="fight" type="button">FIGHT</button>
+    <button id="bag">BAG</button>
+    <button id="pokemon">POKEMON</button>
+    <button id="run">RUN</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
